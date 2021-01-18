@@ -10,6 +10,7 @@ a{
 	padding: 25%;
 	border-color: white;
 	border-style: solid;
+	transition: 2s ;
 
 }
 
@@ -21,6 +22,7 @@ a:hover{
 	padding: 25%;
 	border-color: white;
 	background-color: white;
+	transform:translateX(60px);
 
 }
 
@@ -29,12 +31,15 @@ a:hover{
 
 	display: flex;
 	justify-content: center;
-	border: solid;
-	border-color: black;
+	/*border: solid;
+	border-color: black;*/
 	padding: 50px;
 	margin-left: 35%;
 	margin-right:35%;
 	margin-top: 15%;
+	transition: 2s ;
+
+
 
 }
 
@@ -42,13 +47,16 @@ a:hover{
 
 	display: flex;
 	justify-content: center;
-	border: solid;
-	border-color: white;
+	/*border: solid;
+	border-color: white;*/
 	padding: 50px;
 	margin-left: 35%;
 	margin-right:35%;
 	margin-top: 15%;
-	background-color: white;
+	transform:translateX(60px);
+
+
+	
 
 }
 

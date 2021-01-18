@@ -8,8 +8,9 @@ a{
 	font-weight: bold;
 	font-size: 20px;
 	padding: 25%;
+	border: solid;
 	border-color: white;
-	border-style: solid;
+	border: solid;
 	transition: 2s ;
 
 }
@@ -20,7 +21,8 @@ a:hover{
 	font-weight: bold;
 	font-size: 20px;
 	padding: 25%;
-	border-color: white;
+	border: solid;
+	border-color: black;
 	background-color: white;
 	transform:translateX(60px);
 
@@ -31,8 +33,7 @@ a:hover{
 
 	display: flex;
 	justify-content: center;
-	/*border: solid;
-	border-color: black;*/
+	  
 	padding: 50px;
 	margin-left: 35%;
 	margin-right:35%;
@@ -47,8 +48,7 @@ a:hover{
 
 	display: flex;
 	justify-content: center;
-	/*border: solid;
-	border-color: white;*/
+	
 	padding: 50px;
 	margin-left: 35%;
 	margin-right:35%;
